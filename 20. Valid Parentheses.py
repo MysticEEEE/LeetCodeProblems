@@ -16,7 +16,7 @@ class Solution(object):
                 return False
         return not stack
 
-    def isValid1(self, s: str) -> bool:
+    def isValid1(self, s):
         dic = {'{': '}',  '[': ']', '(': ')'}
         # if s and s[0] not in dic: 
         #     return False
