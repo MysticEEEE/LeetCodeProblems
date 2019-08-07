@@ -9,7 +9,7 @@ class Solution(object):
             num = sum(int(i) for i in str(num))
         return num
 
-        return self.addDigits(sum(int(i) for i in str(num)) if num
+        # return self.addDigits(sum(int(i) for i in str(num)) if num
 
 if __name__ == "__main__":
     a = Solution
