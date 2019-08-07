@@ -29,7 +29,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    list = [1,2,3,4,5]
+    list = [7,2,3,4,5]
     a = Solution()
     print(a.findUnsortedSubarray3(list))
     print(a.findUnsortedSubarray(list))
