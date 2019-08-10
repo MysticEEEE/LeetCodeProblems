@@ -5,7 +5,6 @@ class Solution(object):
         :rtype: bool
         """
         curPos = len(nums)-1
-        curValue= 0
         for i in range(curPos,-1,-1):
             if i + nums[i] >= curPos:
                 curPos = i
