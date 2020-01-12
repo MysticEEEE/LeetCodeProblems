@@ -85,7 +85,7 @@ if __name__ == "__main__":
 l = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'],
      ['m', 'n', 'o'], ['p', 'q', 'r', 's'], ['t', 'u', 'v'],
      ['w', 'x', 'y', 'z']]
-digits = '234'
+digits = '234555'
 s = Solution()
 
-print(s.letterCombinations(digits))
+print(s.letterCombinations2(digits))
